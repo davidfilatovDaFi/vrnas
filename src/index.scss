@@ -3,8 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body, #root {
-  height: 100%;
+html, body {
+  min-height: 100%;
 }
 
 body {
@@ -13,8 +13,10 @@ body {
 }
 
 #root {
+  overflow: hidden;
+  height: 100%;
   position: relative;
-  width: 100%;
   color: white;
   background: url('./assets/effect.png') no-repeat top right;
 }
+

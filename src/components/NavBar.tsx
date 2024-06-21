@@ -10,7 +10,7 @@ const NavBar = ({isBurger}:{isBurger: boolean}) => {
 
   return (
     <nav className={cn(`fixed -translate-x-full md:-translate-x-0 md:w-auto md:h-auto 
-      md:bg-[rgba(0,0,0,0)] bg-[rgba(37,37,50,0.8)] md:relative 
+      md:bg-[rgba(0,0,0,0)] bg-[rgba(37,37,50,0.9)] md:relative 
       inset-0 pt-[110px] md:p-0 transition-all`, {'-translate-x-0': isBurger})}
     >
       <ul className="flex flex-col md:flex-row items-start lg:gap-[64px] gap-[42px] md:items-center">

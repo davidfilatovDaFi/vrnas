@@ -12,7 +12,7 @@ interface IButtonProps {
 const Button = ({children, type, onClick, className}: IButtonProps) => {
   return (
     <button onClick={onClick} className={cn('cursor-pointer', styles[type], className)}>
-      <span className='relative'>{children}</span>
+      <span className='relative block'>{children}</span>
     </button>
   )
 }
