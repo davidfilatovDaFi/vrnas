@@ -2,10 +2,10 @@ import { startClients } from "../../constants/home"
 import Container from "../Container"
 import Button from "../UI/Button/Button"
 import vr from '../../assets/home/start/vr.png'
-import play from '../../assets/home/start/play.png'
 import line from '../../assets/home/start/line.png'
 import person from '../../assets/home/start/person.png'
 import BlurGradient from "../BlurGradient"
+import VideoPlayer from "../VideoPlayer"
 
 const Start = () => {
 
@@ -38,10 +38,7 @@ const Start = () => {
                 <span className="font-light text-[#D1D1D1]">Happy Client</span>
               </p>
             </div>
-            <div className="relative group w-[196px] h-[127px] overflow-hidden cursor-pointer">
-              <img className="w-full h-full transition-all duration-700 group-hover:scale-110" src={vr} alt="vr" />
-              <img className="w-7 h-7 transition-all duration-[300ms] group-hover:scale-125 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" src={play} alt="play" />
-            </div>
+            <VideoPlayer image={vr}/>
           </div>
         </div>
         <div className="w-[354px] lg:w-[526px] h-[422px] lg:h-[626px] absolute extra_sm:right-0 bottom-0 -right-[30%] ">
