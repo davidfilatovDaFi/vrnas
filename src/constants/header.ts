@@ -52,3 +52,18 @@ export const navItems = [
     ]
   },
 ]
+
+export const chooseUsBlocks = [
+  {
+    title: 'Passionate and Experienced Team',
+    text: 'We are proud of our team of VR experts who are passionate about VR and dedicated to delivering the highest quality work. Our team consists of experienced VR developers, designers, and technicians who have a proven track record of creating immersive and engaging VR experiences.'
+  },
+  {
+    title: 'Customized Solutions',
+    text: 'We are proud of our team of VR experts who are passionate about VR and dedicated to delivering the highest quality work. Our team consists of experienced VR developers, designers, and technicians who have a proven track record of creating immersive and engaging VR experiences.'
+  },
+  {
+    title: 'Exceptional Customer Service',
+    text: 'We are proud of our team of VR experts who are passionate about VR and dedicated to delivering the highest quality work. Our team consists of experienced VR developers, designers, and technicians who have a proven track record of creating immersive and engaging VR experiences.'
+  },
+]

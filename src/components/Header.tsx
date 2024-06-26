@@ -43,7 +43,15 @@ const Header = () => {
           <Button className='extra_sm:block hidden' type='transparent'>Contact us</Button>
           <Button 
             className='md:hidden py-[17px] px-3'
-            onClick={() => setIsBurger(isBurger => !isBurger)} 
+            onClick={() => {
+              if (isBurger) {
+                setIsBurger(false)
+                document.body.style.overflow = 'auto'
+              } else {
+                setIsBurger(true)
+                document.body.style.overflow = 'hidden'
+              }
+            }} 
             type='transparent'
           >
             <div className='flex flex-col items-end gap-1'>

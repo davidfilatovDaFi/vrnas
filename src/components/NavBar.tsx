@@ -3,6 +3,7 @@ import { navItems } from '../constants/header'
 import { cn } from '../utils/helpers'
 import Popup from './UI/Popup'
 import Button from './UI/Button/Button'
+import Arrow from './Arrow'
 
 const NavBar = ({isBurger}:{isBurger: boolean}) => {
 
@@ -23,12 +24,7 @@ const NavBar = ({isBurger}:{isBurger: boolean}) => {
                   className='w-3 h-3 flex items-center justify-center'
                   onClick={() => setActiveLink(link => link === index ? 0 : index)}
                 >
-                  <span className={
-                    cn(
-                      'w-3 md:w-[6px] h-3 md:h-[6px] transition-all inline-block border-white border-t-[1px] border-r-[1px] rotate-[135deg]',
-                      {'-rotate-45 translate-y-[2px]': activeLink === index}
-                    )
-                  }></span>
+                  <Arrow className='w-3 md:w-[6px] h-3 md:h-[6px]' isActive={activeLink === index}/>
                 </button>
               )}
             </div>

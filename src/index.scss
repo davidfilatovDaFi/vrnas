@@ -20,3 +20,7 @@ body {
   background: url('./assets/effect.png') no-repeat top right;
 }
 
+.gradient-text {
+  @apply bg-[linear-gradient(90deg,_#0CBAF1_0%,_#E95CE9_100%)] bg-clip-text text-transparent inline-block uppercase font-medium tracking-[.14rem];
+}
+
