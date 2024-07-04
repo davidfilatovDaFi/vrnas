@@ -1,5 +1,6 @@
 import { serviceBlocks } from "../../constants/home"
 import { cn } from "../../utils/helpers"
+import BlurGradient from "../BlurGradient"
 import Container from "../Container"
 import SectionTitle from "../SectionTitle"
 import Button from "../UI/Button/Button"
@@ -8,7 +9,8 @@ const OurService = () => {
   return (
     <section className="lg:mb-[250px] md:mb-[150px] mb-[100px]">
       <Container>
-        <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 justify-between mb-[46px]">
+        <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 justify-between mb-[46px] relative">
+          <BlurGradient className="absolute -right-20 top-0 h-[230px] w-[400px] rounded-full opacity-75 blur-[90px] -rotate-45"/>
           <SectionTitle
             title="Our Service"
             text="Our Service"

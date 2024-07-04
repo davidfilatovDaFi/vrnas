@@ -13,6 +13,13 @@ import service4 from '../assets/home/our-service/service4.png'
 import service5 from '../assets/home/our-service/service5.png'
 import service6 from '../assets/home/our-service/service6.png'
 
+import client1 from '../assets/home/testimonial/client1.png'
+import client2 from '../assets/home/testimonial/client2.png'
+import client3 from '../assets/home/testimonial/client3.png'
+import client4 from '../assets/home/testimonial/client4.png'
+import client5 from '../assets/home/testimonial/client5.png'
+import client6 from '../assets/home/testimonial/client6.png'
+
 export const startClients = [startClient1, startClient2, startClient3]
 
 export const achivmentBlocks = [
@@ -69,5 +76,32 @@ export const serviceBlocks = [
     title: 'VR Entertainment',
     text: 'reate a VR escape room, or offer VR experiences at a theme park, we have the expertise and experience to make it happen.',
     className: 'top-0 lg:top-[100px]'
+  },
+]
+
+export const ourClients = [
+  {
+    image: client1,
+    className: 'top-[22%] left-[64%]'
+  },
+  {
+    image: client2,
+    className: 'top-[23%] left-[0px]'
+  },
+  {
+    image: client3,
+    className: 'lg:top-[43%] top-[72%] lg:left-[85%] left-[78%]'
+  },
+  {
+    image: client4,
+    className: 'top-[69%] left-[47%]'
+  },
+  {
+    image: client5,
+    className: 'top-[75%] left-[11%]'
+  },
+  {
+    image: client6,
+    className: 'top-[87%] left-[79%]'
   },
 ]
