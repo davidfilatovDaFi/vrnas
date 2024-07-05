@@ -10,7 +10,7 @@ const Testimonial = () => {
   const [activeClient, setActiveClient] = useState<number | null>(0)
 
   return (
-    <section>
+    <section className="mb-[100px]">
       <Container className="flex justify-center items-center relative">
         <SectionTitle
           title="testimonial"

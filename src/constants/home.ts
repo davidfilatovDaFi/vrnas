@@ -20,6 +20,14 @@ import client4 from '../assets/home/testimonial/client4.png'
 import client5 from '../assets/home/testimonial/client5.png'
 import client6 from '../assets/home/testimonial/client6.png'
 
+import logo1 from '../assets/home/our-partners/logo/logo1.png'
+import logo2 from '../assets/home/our-partners/logo/logo2.png'
+import logo3 from '../assets/home/our-partners/logo/logo3.png'
+import logo4 from '../assets/home/our-partners/logo/logo4.png'
+import logo5 from '../assets/home/our-partners/logo/logo5.png'
+import logo6 from '../assets/home/our-partners/logo/logo6.png'
+import logo7 from '../assets/home/our-partners/logo/logo7.png'
+
 export const startClients = [startClient1, startClient2, startClient3]
 
 export const achivmentBlocks = [
@@ -103,5 +111,52 @@ export const ourClients = [
   {
     image: client6,
     className: 'top-[87%] left-[79%]'
+  },
+]
+
+export const ourPricingBlocks = [
+  {
+    title: 'Customizable Packages',
+    text: 'We understand that each project is unique, so we offer customizable packages to ensure that you get the services you need at a price that works for you. Our team will work with you to create a package that meets your specific goals and budget.'
+  },
+  {
+    title: 'Flexible Payment Options',
+    text: 'We offer flexible payment options to make it easy for you to get started with our services. We accept various payment methods, including credit cards, bank transfers, and PayPal, and we can also work with you to create a payment plan that suits your needs.'
+  },
+  {
+    title: 'Satisfaction Guarantee',
+    text: 'We stand behind our services and are committed to ensuring that you are completely satisfied with the final product. If for any reason you are not happy with our services, we will work with you to make it right or provide a full refund.'
+  },
+
+]
+
+export const partnersLogo = [
+  {
+    className: 'top-[59%] left-[1.4%]',
+    image: logo1
+  },
+  {
+    className: 'top-[34%] left-[6.8%]',
+    image: logo2
+  },
+  {
+    className: 'top-[12%] left-[24%]',
+    image: logo3
+  },
+  {
+    className: 'top-[2%] left-[45%]',
+    image: logo4
+  },
+  {
+    className: 'top-[12%] right-[24%]',
+    image: logo5
+  },
+  {
+    className: 'top-[34%] right-[6.8%]',
+    image: logo6
+  },
+  {
+    className: 'top-[59%] right-[1.4%]',
+    image: logo7
   },
 ]
