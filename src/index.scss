@@ -31,4 +31,36 @@ body {
   background-repeat: no-repeat;
 }
 
+.swiper-pagination-bullet {
+  @apply w-2 h-[3px] bg-white rounded-md;
+}
+
+.swiper-pagination-bullet-active {
+  @apply w-4;
+}
+
+.simplebar-scrollbar {
+  background-color: white !important;
+}
+
+.simplebar-track {
+  @apply bg-[rgba(255,255,255,0.15)];
+  width: 2px !important;
+  height: 95% !important;
+  left: 100% !important;
+  @media (min-width: 1280px) {
+    left: 110% !important;
+  }
+}
+
+.footer-input {
+  padding: 14px;
+  width: 242px;
+  &::placeholder {
+    background: url('./assets/footer/message.svg') no-repeat;
+    background-position: 0% 50%;
+    text-indent: 30px;
+  }
+}
+
 

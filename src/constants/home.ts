@@ -28,6 +28,16 @@ import logo5 from '../assets/home/our-partners/logo/logo5.png'
 import logo6 from '../assets/home/our-partners/logo/logo6.png'
 import logo7 from '../assets/home/our-partners/logo/logo7.png'
 
+import slider1 from '../assets/home/our-articles/slider/slider1.png'
+import slider2 from '../assets/home/our-articles/slider/slider2.png'
+import slider3 from '../assets/home/our-articles/slider/slider3.png'
+import slider4 from '../assets/home/our-articles/slider/slider4.png'
+
+import article1 from '../assets/home/our-articles/articles/01.webp'
+import article2 from '../assets/home/our-articles/articles/02.webp'
+import article3 from '../assets/home/our-articles/articles/03.webp'
+import article4 from '../assets/home/our-articles/articles/04.webp'
+
 export const startClients = [startClient1, startClient2, startClient3]
 
 export const achivmentBlocks = [
@@ -158,5 +168,66 @@ export const partnersLogo = [
   {
     className: 'top-[59%] right-[1.4%]',
     image: logo7
+  },
+]
+
+export const articlesSlider = [
+  {
+    title: 'VR Games',
+    text: 'Entertainment Goes Virtual: The Rise of VR Gaming',
+    image: slider1
+  },
+  {
+    title: 'VR Architecture',
+    text: 'The Future of Education: How VR is Revolutionizing the Classroom',
+    image: slider2
+  },
+  {
+    title: 'VR Education',
+    text: 'Entertainment Goes Virtual: The Rise of VR Gaming',
+    image: slider3
+  },
+  {
+    title: 'VR Entertainment',
+    text: 'Bringing Designs to Life: How VR is Changing Architecture',
+    image: slider4
+  },
+]
+
+export const articlesItems = [
+  {
+    title: 'VR Education',
+    text: 'The Future of Education: How VR is Revolutionizing the Classroom',
+    image: article1
+  },
+  {
+    title: 'VR Architecture',
+    text: 'Bringing Designs to Life: How VR is Changing Architecture',
+    image: article2
+  },
+  {
+    title: 'VR Entertainment ',
+    text: 'Making Events Memorable: The Power of VR for Corporate and Special Occasions',
+    image: article3
+  },
+  {
+    title: 'VR Event',
+    text: 'The Future of Education: How VR is Revolutionizing the Classroom',
+    image: article4
+  },
+  {
+    title: 'VR Education',
+    text: 'The Future of Education: How VR is Revolutionizing the Classroom',
+    image: article1
+  },
+  {
+    title: 'VR Architecture',
+    text: 'Bringing Designs to Life: How VR is Changing Architecture',
+    image: article2
+  },
+  {
+    title: 'VR Entertainment ',
+    text: 'Making Events Memorable: The Power of VR for Corporate and Special Occasions',
+    image: article3
   },
 ]

@@ -15,8 +15,8 @@ const OurPartners = () => {
       <div className="max-w-[1050px] relative">
         <BlurGradient className="absolute left-1/2 top-1/4 -translate-x-1/2 w-[23.5%] h-[87%] -rotate-90"/>
         <img className="object-contain w-full relative z-10" src={man} alt="" />
-        {partnersLogo.map(logo => (
-          <img className={cn(
+        {partnersLogo.map((logo, i) => (
+          <img key={i} className={cn(
             'absolute z-10 w-[9.6%] h-[13.7%] hover:scale-125 duration-500 transition-all',
             logo.className
           )} src={logo.image} alt="logo" />
