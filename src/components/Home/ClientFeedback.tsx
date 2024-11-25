@@ -32,8 +32,9 @@ const ClientFeedback = ({
         {
           "left-0 lg:left-0 z-10":
             isActive &&
+            refClient.current &&
             (window.innerWidth < 667 ||
-              (refClient.current?.offsetLeft > window.innerWidth / 2 &&
+              (refClient.current.offsetLeft > window.innerWidth / 2 &&
                 window.innerWidth < 1620)),
         }
       )}
