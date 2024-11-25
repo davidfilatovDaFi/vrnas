@@ -63,4 +63,26 @@ body {
   }
 }
 
+.animRight {
+  animation: swipe-animation 0.5s linear forwards; 
+}
+
+.rightR {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  transform: translateX(0%);
+  transition: 0.5s;
+}
+
+@keyframes swipe-animation {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
 

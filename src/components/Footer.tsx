@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <Container className='space-y-[180px]'>
-        <div className='w-full py-[34px] px-[74px] flex text-center gap-y-4 flex-col md:flex-row items-center justify-between bg-[linear-gradient(90deg,_#0CBAF1_0%,_#E95CE9_100%)]'>
+        <div className='w-full py-[34px] px-[74px] flex text-center md:text-start gap-y-4 flex-col md:flex-row items-center justify-between bg-[linear-gradient(90deg,_#0CBAF1_0%,_#E95CE9_100%)]'>
           <p className='text-[28px] lg:text-[40px] font-semibold leading-[36px] md:leading-[58px] max-w-[560px]'>Subscribe to our newsletter for latest updates</p>
           <form className='bg-white/10 p-1 flex items-center sm:gap-[35px]' action="">
             <input 
